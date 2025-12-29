@@ -395,11 +395,11 @@
 
 .footer__column-link {
   text-decoration: none;
+  margin-right: 10px;
 }
 
 .footer__social-icon {
   max-width: 16px;
-  margin-right: 10px;
 }
 
 .footer__copyright {
