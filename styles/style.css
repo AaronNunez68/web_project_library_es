@@ -346,18 +346,22 @@
 }
 
 .footer__columns {
-  padding: 60px 80px 0px 80px;
+  padding: 60px 80px 0 80px;
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
+}
+
+.footer__column {
+  color: white;
 }
 
 .footer__column_content_logo {
-  margin-right: auto;
+  order: -1;
 }
 
 .footer__column_content_hours {
   color: white;
-  margin-right: 80px;
+  padding-right: 80px;
 }
 
 .footer__column_content_social {
